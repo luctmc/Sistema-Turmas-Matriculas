@@ -1,0 +1,40 @@
+{
+  "name": "stm-backend",
+  "version": "1.0.0",
+  "description": "API do Sistema de Turma e Matrícula com autenticação JWT e documentação Swagger",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint --ext .js src"
+  },
+  "keywords": [
+    "turma",
+    "matricula",
+    "api",
+    "sequelize",
+    "jwt"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "globals": "^15.12.0"
+  }
+}
